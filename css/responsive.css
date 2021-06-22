@@ -1,0 +1,390 @@
+@media (min-width: 900px) and (max-width: 1200px) {
+  .single-player h3 {
+    font-size: 14px;
+  }
+
+  .blog-img {
+    height: 117px;
+  }
+
+  .blog-info h3 {
+    font-size: 16px;
+  }
+
+  .blog-info p a {
+    font-size: 14px;
+  }
+
+  .course-thmbnail {
+    height: 101px;
+  }
+
+  .course-detail h3 {
+    font-size: 15px;
+  }
+
+  .ratings i {
+    font-size: 8px;
+  }
+
+  .ratings span {
+    margin-left: 0;
+    font-size: 14px;
+  }
+}
+
+@media (max-width: 899px) {
+  .single-player h3 {
+    font-size: 14px;
+  }
+
+  .blog-img {
+    height: 117px;
+  }
+
+  .blog-info h3 {
+    font-size: 16px;
+  }
+
+  .blog-info p a {
+    font-size: 14px;
+  }
+
+  .course-thmbnail {
+    height: 100px;
+  }
+
+  .course-detail h3 {
+    font-size: 15px;
+  }
+
+  .ratings i {
+    font-size: 8px;
+  }
+
+  .ratings span {
+    margin-left: 0;
+    font-size: 14px;
+  }
+
+  .duration {
+    padding: 5px 7px;
+  }
+
+  .duration span {
+    font-size: 13px;
+  }
+}
+
+@media (max-width: 849px) {
+  .player {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .blog-img {
+    height: 110px;
+  }
+
+  .course-thmbnail {
+    height: 93px;
+  }
+
+  .course-info {
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .duration {
+    margin-left: 0;
+    margin-top: 10px;
+  }
+}
+
+@media (max-width: 843px) {
+}
+
+@media (max-width: 809px) {
+  .blog {
+    grid-template-columns: repeat(1, 1fr);
+  }
+
+  .blog-img {
+    height: 221px;
+  }
+
+  .courses {
+    grid-template-columns: repeat(1, 1fr);
+  }
+
+  .course-thmbnail {
+    height: 309px;
+  }
+
+  .blog-img {
+    border-radius: 22px;
+  }
+
+  .course-thmbnail {
+    border-radius: 38px;
+  }
+
+  .course-detail h3 {
+    font-size: 25px;
+  }
+
+  .course-detail p a {
+    font-size: 19px;
+  }
+
+  .ratings i {
+    font-size: 17px;
+  }
+
+  .ratings span {
+    font-size: 21px;
+  }
+
+  .duration {
+    padding: 9px 29px;
+  }
+
+  .duration span {
+    font-size: 20px;
+  }
+}
+
+@media (max-width: 767px) {
+  .blog-img {
+    height: 208px;
+  }
+
+  .course-thmbnail {
+    height: 293px;
+  }
+}
+
+@media (max-width: 745px) {
+  .blog-img {
+    height: 201px;
+  }
+
+  .course-thmbnail {
+    height: 283px;
+  }
+}
+
+@media (max-width: 670px) {
+  .blog-img {
+    height: 178px;
+  }
+
+  .course-thmbnail {
+    height: 252px;
+  }
+}
+
+@media (max-width: 650px) {
+  .blog-img {
+    height: 172px;
+  }
+
+  .course-thmbnail {
+    height: 243px;
+  }
+}
+
+@media (max-width: 600px) {
+  .blog-img {
+    height: 159px;
+  }
+
+  .course-thmbnail {
+    height: 222px;
+  }
+}
+
+@media (max-width: 576px) {
+  .blog-img {
+    height: 150px;
+  }
+
+  .course-thmbnail {
+    height: 212px;
+  }
+}
+
+@media (max-width: 555px) {
+  .menu ul li a {
+    font-size: 16px;
+  }
+
+  .blog-img {
+    height: 143px;
+  }
+
+  .course-thmbnail {
+    height: 202px;
+  }
+}
+
+@media (max-width: 500px) {
+  .blog-img {
+    height: 129px;
+  }
+
+  .course-thmbnail {
+    height: 180px;
+  }
+
+  .course-detail h3 {
+    font-size: 19px;
+  }
+
+  .course-detail p a {
+    font-size: 17px;
+  }
+}
+
+/* =========================================================mobile */
+
+@media (max-width: 490px) {
+  .blog-img {
+    height: 125px;
+  }
+
+  .course-thmbnail {
+    height: 176px;
+  }
+}
+
+@media (max-width: 460px) {
+  .blog-img {
+    height: 117px;
+  }
+
+  .course-thmbnail {
+    height: 163px;
+  }
+}
+
+@media (max-width: 413px) {
+  .player {
+    grid-template-columns: repeat(1, 1fr);
+  }
+
+  .blog-img {
+    height: 102px;
+  }
+
+  .course-thmbnail {
+    height: 144px;
+  }
+
+  .ratings i {
+    font-size: 13px;
+  }
+
+  .course-info {
+    flex-direction: row;
+  }
+
+  .duration {
+    padding: 9px 13px;
+    margin-left: auto;
+  }
+
+  .duration span {
+    font-size: 16px;
+  }
+
+  .ratings span {
+    font-size: 19px;
+    margin-left: 10px;
+  }
+}
+
+@media (max-width: 376px) {
+  .single-blog {
+    flex-direction: column;
+  }
+
+  .blog-info h3 {
+    margin-top: 10px;
+  }
+
+  .single-blog > blog-img {
+    flex-basis: 100%;
+  }
+
+  .blog-img {
+    height: 184px;
+    margin-right: 0;
+  }
+
+  .single-blog {
+    align-items: flex-start;
+  }
+
+  .course-thmbnail {
+    height: 128px;
+  }
+
+  .course-detail h3 {
+    font-size: 15px;
+  }
+
+  .course-detail p a {
+    font-size: 15px;
+  }
+
+  .course-info {
+    flex-direction: column;
+  }
+
+  .duration {
+    margin-left: 0;
+  }
+
+  .course-info {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .flex-footer {
+    flex-direction: column;
+  }
+
+  .copyright {
+    margin-bottom: 15px;
+  }
+
+  .single-blog {
+    flex-direction: column;
+    align-items: flex-start;
+    box-shadow: 0 5px 13px 0px #66666670;
+    border-radius: 10px;
+    padding: 10px;
+  }
+}
+
+@media (max-width: 320px) {
+  .single-player {
+    align-items: center;
+  }
+
+  .blog-img {
+    height: 163px;
+  }
+
+  .course-thmbnail {
+    height: 105px;
+  }
+
+  .single-blog {
+    flex-direction: column;
+    align-items: flex-start;
+    box-shadow: 0 5px 13px 0px #66666670;
+    border-radius: 10px;
+    padding: 10px;
+  }
+}
