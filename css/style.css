@@ -69,12 +69,32 @@ header{
 }
 
 .profile img:hover{
-  border: 3px solid #e8e7f3
+  border: 3px solid #e8e7f3;
 }
 
+.playerBlog{
+  background-color:#ffffff;
+  margin: 50px 0;
+  padding: 20px;
+  border-radius: 10px;
+}
 
+.player{
+  display: grid;
+  grid-template-columns: repeat(3,1fr);
+  margin: 20px 0;
+  padding: 0 20px;
+  justify-content: center;
+}
 
+.single-player{
+  padding:  20px;
+}
 
+.single-player img{
+  width: 50px;
+  margin-right: 10px;
+}
 
 
 
